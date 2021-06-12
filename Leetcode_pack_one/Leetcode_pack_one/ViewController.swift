@@ -18,6 +18,11 @@ class ViewController: UIViewController {
 		// test find pair
 		print(model.findPair(array: [4,2,3,7,2,8,1], target: 5))
 		
+		
+		// 3Sum problem
+		let solution = Solution()
+		print(solution.threeSum([-1, 0, 1, 2, -1, -4]))
+		
 	}
 }
 
