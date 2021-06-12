@@ -11,6 +11,9 @@ import Foundation
 /// 3Sum problem:
 
 class Solution {
+	
+	// BruteForce approach
+	
 	func threeSum(_ nums: [Int]) -> [[Int]] {
 		
 		// 1. loop through 0 to n-1 ( say loop i)
@@ -61,6 +64,62 @@ class Solution {
 		
 		return results
 	}
+	
+	
+	func threeSum2(_ nums: [Int]) -> [[Int]] {
+		
+		// 1. sort the array
+		
+		// 2. fix the first element and try to find out two other element in the sorted array
+		
+		// 3. use two pointer technique to move from front and back until you get value
+		
+		guard !nums.isEmpty, nums.count > 2 else { return [] }
+		
+		var results: [[Int]] = []
+		
+		let sorted = nums.sorted()
+		
+		for i in 0...sorted.count-2 {
+			
+			let value = sorted[i]
+			var left = i+1
+			var right = sorted.count-1
+			
+			while left < right {
+				
+				let sum = sorted[left] + sorted[right]
+				if sum + value == 0 {
+					results.append([value, sorted[left], sorted[right]])
+					left += 1
+					right -= 1
+					
+				} else {
+					if sum + value > 0 { // positive
+						right -= 1
+					} else { // negative
+						left += 1
+					}
+				}
+				
+			}
+		}
+		
+		// remove duplicate answers
+		guard !results.isEmpty else { return [] }
+		var set = Set<[Int]>()
+		var finalResult: [[Int]] = []
+		for i in 0...results.count-1 {
+			let element = results[i]
+			if !set.contains(element) {
+				set.insert(element)
+				finalResult.append(element)
+			}
+		}
+		
+		return finalResult
+	}
+	
 }
 
 

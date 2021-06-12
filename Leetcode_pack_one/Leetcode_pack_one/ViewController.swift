@@ -21,7 +21,8 @@ class ViewController: UIViewController {
 		
 		// 3Sum problem
 		let solution = Solution()
-		print(solution.threeSum([-1, 0, 1, 2, -1, -4]))
+		print(solution.threeSum2([-1, 0, 1, 2, -1, -4]))
+		print(solution.threeSum2([0, 1, 1]))
 		
 	}
 }
