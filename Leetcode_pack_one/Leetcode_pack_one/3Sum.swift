@@ -10,63 +10,9 @@ import Foundation
 
 /// 3Sum problem:
 
-class Solution {
-	
-	// BruteForce approach
+class ThreeSum {
 	
 	func threeSum(_ nums: [Int]) -> [[Int]] {
-		
-		// 1. loop through 0 to n-1 ( say loop i)
- 
-		// 2. loop thorugh i+1 to n-1 (say loop j)
-		
-		// 3. create a set from j+1 to n-1
-		
-		// 4. check whether set contains -(nums[i] + nums[j]) so that overall sum is 0
-		
-		guard !nums.isEmpty && nums.count > 1 else { return [] }
-		
-
-		// Question - what if it has 2 elements and sum is 0
-		
-		var results: [[Int]] = []
-		
-		for i in 0...nums.count-2 {
-			
-			for j in i+1...nums.count-1 {
-				
-				var set: Set<Int> = []
-				// construct a set from j+1 to n-1
-				if j+1 < nums.count {
-					
-					for k in j+1...nums.count-1 {
-						if !set.contains(nums[k]) {
-							set.insert(nums[k])
-						}
-					}
-					 
-				} else {
-					if nums[i] + nums[j] == 0 {
-						results.append([nums[i], nums[j]]);
-					}
-				}
-				
-				// check the value
-				let sum = nums[i] + nums[j]
-				if set.contains(-sum) {
-					results.append([nums[i], nums[j], -sum])
-				}
-				
-				
-			} // end of j
-			
-		} // end of i
-		
-		return results
-	}
-	
-	
-	func threeSum2(_ nums: [Int]) -> [[Int]] {
 		
 		// 1. sort the array
 		
@@ -119,6 +65,65 @@ class Solution {
 		
 		return finalResult
 	}
+	
+	
+	
+	
+	
+	// BruteForce approach
+	
+	func threeSum2(_ nums: [Int]) -> [[Int]] {
+		
+		// 1. loop through 0 to n-1 ( say loop i)
+ 
+		// 2. loop thorugh i+1 to n-1 (say loop j)
+		
+		// 3. create a set from j+1 to n-1
+		
+		// 4. check whether set contains -(nums[i] + nums[j]) so that overall sum is 0
+		
+		guard !nums.isEmpty && nums.count > 1 else { return [] }
+		
+
+		// Question - what if it has 2 elements and sum is 0
+		
+		var results: [[Int]] = []
+		
+		for i in 0...nums.count-2 {
+			
+			for j in i+1...nums.count-1 {
+				
+				var set: Set<Int> = []
+				// construct a set from j+1 to n-1
+				if j+1 < nums.count {
+					
+					for k in j+1...nums.count-1 {
+						if !set.contains(nums[k]) {
+							set.insert(nums[k])
+						}
+					}
+					 
+				} else {
+					if nums[i] + nums[j] == 0 {
+						results.append([nums[i], nums[j]]);
+					}
+				}
+				
+				// check the value
+				let sum = nums[i] + nums[j]
+				if set.contains(-sum) {
+					results.append([nums[i], nums[j], -sum])
+				}
+				
+				
+			} // end of j
+			
+		} // end of i
+		
+		return results
+	}
+	
+	
 	
 }
 

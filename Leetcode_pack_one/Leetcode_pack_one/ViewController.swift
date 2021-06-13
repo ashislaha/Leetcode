@@ -20,9 +20,19 @@ class ViewController: UIViewController {
 		
 		
 		// 3Sum problem
-		let solution = Solution()
-		print(solution.threeSum2([-1, 0, 1, 2, -1, -4]))
-		print(solution.threeSum2([0, 1, 1]))
+		let threeSum = ThreeSum()
+		print(threeSum.threeSum([-1, 0, 1, 2, -1, -4]))
+		print(threeSum.threeSum([0, 1, 1]))
+		
+		
+		// SetMatrixZero
+		var inputMatrix = [
+			[0,1,2,0],
+			[3,4,5,2],
+			[1,3,1,5]
+		]
+		let setMatrixZero = SetMatrixZero()
+		setMatrixZero.setZeroes(&inputMatrix);
 		
 	}
 }
