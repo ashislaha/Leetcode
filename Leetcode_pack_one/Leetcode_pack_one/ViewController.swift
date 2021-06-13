@@ -34,6 +34,14 @@ class ViewController: UIViewController {
 		let setMatrixZero = SetMatrixZero()
 		setMatrixZero.setZeroes(&inputMatrix);
 		
+		let binaryTreeTraversal = BinaryTreeTraversal()
+		binaryTreeTraversal.root = Node(value: 1)
+		binaryTreeTraversal.root?.left = Node(value: 2)
+		binaryTreeTraversal.root?.right = Node(value: 3)
+		binaryTreeTraversal.root?.left?.left = Node(value: 4)
+		binaryTreeTraversal.root?.left?.right = Node(value: 5)
+		binaryTreeTraversal.root?.right?.right = Node(value: 6)
+		binaryTreeTraversal.bfs(root: binaryTreeTraversal.root)
 	}
 }
 
