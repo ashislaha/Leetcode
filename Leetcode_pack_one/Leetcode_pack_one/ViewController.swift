@@ -15,6 +15,8 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
+		testLongestPalindromSubstring()
+		
 		// test find pair
 		print(model.findPair(array: [4,2,3,7,2,8,1], target: 5))
 		
@@ -42,6 +44,17 @@ class ViewController: UIViewController {
 		binaryTreeTraversal.root?.left?.right = Node(value: 5)
 		binaryTreeTraversal.root?.right?.right = Node(value: 6)
 		binaryTreeTraversal.bfs(root: binaryTreeTraversal.root)
+		
+		
+	}
+	
+	private func testLongestPalindromSubstring() {
+		let test = LongestPalindromSubstring()
+		let r = test.longestPalindrome("babad")
+		print(r)
+		
+		let p = test.longestPalindrome("ccc")
+		print(p)
 	}
 }
 
