@@ -7,80 +7,48 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "C63F8FFD-E297-4FB9-BFC5-9CB98226CD6F"
+            uuid = "0D8D38E7-E0BE-4A39-8107-045ACB9DAE05"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Leetcode_pack_one/3Sum.swift"
+            filePath = "Leetcode_pack_one/MinHeap.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "90"
-            endingLineNumber = "90"
-            landmarkName = "threeSum2(_:)"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "sortArray()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "DF11B23E-4FBE-4C8D-87DA-B8FD813F8F80"
+            uuid = "5462AD23-D814-48C2-A7C7-BC48A7D27713"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Leetcode_pack_one/3Sum.swift"
+            filePath = "Leetcode_pack_one/MinHeap.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "113"
-            endingLineNumber = "113"
-            landmarkName = "threeSum2(_:)"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "init(array:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "015F46A2-528A-4114-8A2B-B533E48098B6"
+            uuid = "0217FDC2-B032-46A6-85AD-34F0DF841730"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Leetcode_pack_one/LongestPalindromeSubstring.swift"
+            filePath = "Leetcode_pack_one/MinHeap.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
-            landmarkName = "longestPalindrome(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "88073ED1-32C1-4D68-A11F-237C9BC5F3EC"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Leetcode_pack_one/LongestPalindromeSubstring.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
-            landmarkName = "longestPalindrome(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "AA9C0929-7A57-4E16-B59C-C4B0D66C371E"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Leetcode_pack_one/LongestPalindromeSubstring.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "75"
-            endingLineNumber = "75"
-            landmarkName = "longestPalindrome(_:)"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "heapify(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

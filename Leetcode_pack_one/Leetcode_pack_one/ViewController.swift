@@ -15,6 +15,8 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
+		MinHeap.dummyHeapData()
+		
 		testLongestPalindromSubstring()
 		
 		// test find pair
