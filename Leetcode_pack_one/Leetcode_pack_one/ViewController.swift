@@ -15,7 +15,10 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
-		MinHeap.dummyHeapData()
+		MinHeap.heapTest()
+		
+		// test inorder
+		testInorderTraversal()
 		
 		testLongestPalindromSubstring()
 		
@@ -46,8 +49,6 @@ class ViewController: UIViewController {
 		binaryTreeTraversal.root?.left?.right = Node(value: 5)
 		binaryTreeTraversal.root?.right?.right = Node(value: 6)
 		binaryTreeTraversal.bfs(root: binaryTreeTraversal.root)
-		
-		
 	}
 	
 	private func testLongestPalindromSubstring() {
@@ -57,6 +58,15 @@ class ViewController: UIViewController {
 		
 		let p = test.longestPalindrome("ccc")
 		print(p)
+	}
+	
+	private func testInorderTraversal() {
+		let inorderTraversal = InOrderTraversal()
+		inorderTraversal.root = TreeNode(value: 1)
+		inorderTraversal.root?.left = nil
+		inorderTraversal.root?.right = TreeNode(value: 2)
+		inorderTraversal.root?.right?.left = TreeNode(value: 3)
+		print("Inorder traveral -->", inorderTraversal.inorder(root: inorderTraversal.root))
 	}
 }
 

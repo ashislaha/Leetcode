@@ -78,7 +78,7 @@ class MinHeap {
 	}
 	
 	
-	static func dummyHeapData() {
+	static func heapTest() {
 		
 		print("Before sorting using min-heap ---> [10, 20, 15, 30, 25, 5, 9]")
 		let test = [10, 20, 15, 30, 25, 5, 9]
