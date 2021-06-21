@@ -59,12 +59,23 @@ class MinHeap {
 	
 	private func getLeft(_ index: Int) -> Int { return 2 * index + 1 }
 	private func getRight(_ index: Int) -> Int { return 2 * index + 2 }
+	private func parent(_ index: Int) -> Int  { return (index - 1) / 2 }
 	
 	func getMin() -> HeapNode? {
 		guard !heapArr.isEmpty else { return nil }
 		return heapArr[0]
 	}
 	
+	func extractMin() -> Int {
+		let value = heapArr[0].value
+		heapArr.swapAt(0, heapSize-1)
+		heapSize -= 1
+		heapify(0)
+		
+		// if we want to remove the last element in heap, we can do that.
+		// heapArr.removeLast()
+		return value
+	}
 	
 	func sortArray() -> [HeapNode] {
 		

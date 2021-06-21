@@ -15,6 +15,10 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
+		// anagram
+		GroupAnagram.groupAnangramTest()
+		
+		// heap
 		MinHeap.heapTest()
 		
 		// test inorder

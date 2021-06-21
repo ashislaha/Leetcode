@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5525C328267A4EF40029E5D1 /* MinHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5525C327267A4EF40029E5D1 /* MinHeap.swift */; };
 		554716A9267C770B00B34DBF /* InOrderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554716A8267C770B00B34DBF /* InOrderTraversal.swift */; };
+		554716AE267FA3FF00B34DBF /* GroupAnangram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554716AD267FA3FF00B34DBF /* GroupAnangram.swift */; };
 		558C2A62245C6ACF0072C75A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558C2A61245C6ACF0072C75A /* AppDelegate.swift */; };
 		558C2A64245C6ACF0072C75A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558C2A63245C6ACF0072C75A /* SceneDelegate.swift */; };
 		558C2A66245C6ACF0072C75A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558C2A65245C6ACF0072C75A /* ViewController.swift */; };
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		5525C327267A4EF40029E5D1 /* MinHeap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinHeap.swift; sourceTree = "<group>"; };
 		554716A8267C770B00B34DBF /* InOrderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InOrderTraversal.swift; sourceTree = "<group>"; };
+		554716AD267FA3FF00B34DBF /* GroupAnangram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAnangram.swift; sourceTree = "<group>"; };
 		558C2A5E245C6ACF0072C75A /* Leetcode_pack_one.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Leetcode_pack_one.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		558C2A61245C6ACF0072C75A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		558C2A63245C6ACF0072C75A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				55E630712675B4F8001D5A59 /* SetMatrixZero.swift */,
 				55E6306F2674FD45001D5A59 /* 3Sum.swift */,
 				5599ADD22677097C009C2F8F /* LongestPalindromeSubstring.swift */,
+				554716AD267FA3FF00B34DBF /* GroupAnangram.swift */,
 				55AE98B82675FF610090855F /* LevelWiseTraversal.swift */,
 				558C2A75245C6B580072C75A /* EasyOne.swift */,
 				558C2A67245C6ACF0072C75A /* Main.storyboard */,
@@ -163,6 +166,7 @@
 				55E630702674FD45001D5A59 /* 3Sum.swift in Sources */,
 				558C2A76245C6B580072C75A /* EasyOne.swift in Sources */,
 				558C2A66245C6ACF0072C75A /* ViewController.swift in Sources */,
+				554716AE267FA3FF00B34DBF /* GroupAnangram.swift in Sources */,
 				558C2A62245C6ACF0072C75A /* AppDelegate.swift in Sources */,
 				55AE98B92675FF610090855F /* LevelWiseTraversal.swift in Sources */,
 				5525C328267A4EF40029E5D1 /* MinHeap.swift in Sources */,
