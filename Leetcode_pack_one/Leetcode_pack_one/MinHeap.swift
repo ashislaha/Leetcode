@@ -59,7 +59,29 @@ class MinHeap {
 	
 	private func getLeft(_ index: Int) -> Int { return 2 * index + 1 }
 	private func getRight(_ index: Int) -> Int { return 2 * index + 2 }
-	private func parent(_ index: Int) -> Int  { return (index - 1) / 2 }
+	private func getParent(_ index: Int) -> Int { return (index-1) / 2 }
+	
+	func insert(value: Int) {
+		
+		// increase the heap size
+		heapSize += 1
+		heapArr.append(HeapNode(value: value))
+		
+		// maintain the heap property from bottom to root
+		var i = heapSize-1
+		while i > 0 {
+			let parent = getParent(i)
+			if value < heapArr[parent].value {
+				// swap between parent and child node
+				heapArr.swapAt(parent, i)
+				i = parent
+			} else {
+				// heap property is maintained, break it
+				break
+			}
+		}
+	}
+	
 	
 	func getMin() -> HeapNode? {
 		guard !heapArr.isEmpty else { return nil }
@@ -101,6 +123,9 @@ class MinHeap {
 		
 		let heap = MinHeap(array: input)
 		print("After creating the heap ----> min element ", heap.getMin()?.value ?? -1)
+		
+		
+		
 		
 		let result = heap.sortArray()
 		

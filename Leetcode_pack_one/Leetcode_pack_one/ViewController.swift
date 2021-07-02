@@ -15,6 +15,9 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
+		// phone booth
+		PhoneBooth.test()
+		
 		// anagram
 		GroupAnagram.groupAnangramTest()
 		
