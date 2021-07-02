@@ -14,9 +14,8 @@ class PhoneBooth {
 		
 		// in phone booth - we represent 2 - "abc", 3 - "def", 4 - "ghi" etc.
 		
-		let inputs = ["abc", "def", "ghi"]
 		let phoneBooth = PhoneBooth()
-		let results = phoneBooth.telephoneBooth(inputs: inputs)
+		let results = phoneBooth.telephoneBooth(digits: "234")
 		print(results)
 	}
 	
@@ -31,7 +30,7 @@ class PhoneBooth {
 				results.append(String(char))
 			} else {
 				for str in previousResult {
-					results.append(String(char) + str)
+					results.append(str + String(char))
 				}
 			}
 		}
@@ -39,7 +38,27 @@ class PhoneBooth {
 		return results
 	}
 	
-	func telephoneBooth(inputs: [String]) -> [String] {
+	func telephoneBooth(digits: String) -> [String] {
+		
+		guard !digits.isEmpty else { return [] }
+		
+		let map: [String: String] = ["2": "abc",
+									 "3": "def",
+									 "4": "ghi",
+									 "5": "jkl",
+									 "6": "mno",
+									 "7": "pqrs",
+									 "8": "tuv",
+									 "9": "wxyz"]
+		
+		var inputs: [String] = []
+		
+		// build inputs
+		for eachDigit in digits {
+			if let mappedString = map[String(eachDigit)] {
+				inputs.append(mappedString)
+			}
+		}
 		
 		var results: [String] = []
 		for each in inputs {
