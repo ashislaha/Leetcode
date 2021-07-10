@@ -15,6 +15,11 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
+		MaximumLengthRepeatedSubArray.test()
+		
+		// permutaiton
+		Permutation.test()
+		
 		// phone booth
 		PhoneBooth.test()
 		

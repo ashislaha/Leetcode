@@ -20,8 +20,10 @@
 		558C2A76245C6B580072C75A /* EasyOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558C2A75245C6B580072C75A /* EasyOne.swift */; };
 		5599ADD32677097C009C2F8F /* LongestPalindromeSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5599ADD22677097C009C2F8F /* LongestPalindromeSubstring.swift */; };
 		55AE98B92675FF610090855F /* LevelWiseTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AE98B82675FF610090855F /* LevelWiseTraversal.swift */; };
+		55CE30E8269965FB00CB6A69 /* MaximumLengthRepeatedSubArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CE30E7269965FB00CB6A69 /* MaximumLengthRepeatedSubArray.swift */; };
 		55E630702674FD45001D5A59 /* 3Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E6306F2674FD45001D5A59 /* 3Sum.swift */; };
 		55E630722675B4F9001D5A59 /* SetMatrixZero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E630712675B4F8001D5A59 /* SetMatrixZero.swift */; };
+		55F9D2582697302300044EA0 /* Permutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F9D2572697302300044EA0 /* Permutation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,8 +42,10 @@
 		558C2A75245C6B580072C75A /* EasyOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyOne.swift; sourceTree = "<group>"; };
 		5599ADD22677097C009C2F8F /* LongestPalindromeSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPalindromeSubstring.swift; sourceTree = "<group>"; };
 		55AE98B82675FF610090855F /* LevelWiseTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelWiseTraversal.swift; sourceTree = "<group>"; };
+		55CE30E7269965FB00CB6A69 /* MaximumLengthRepeatedSubArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumLengthRepeatedSubArray.swift; sourceTree = "<group>"; };
 		55E6306F2674FD45001D5A59 /* 3Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3Sum.swift; sourceTree = "<group>"; };
 		55E630712675B4F8001D5A59 /* SetMatrixZero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetMatrixZero.swift; sourceTree = "<group>"; };
+		55F9D2572697302300044EA0 /* Permutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permutation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,13 +89,23 @@
 				554716AD267FA3FF00B34DBF /* GroupAnangram.swift */,
 				55AE98B82675FF610090855F /* LevelWiseTraversal.swift */,
 				558C2A75245C6B580072C75A /* EasyOne.swift */,
+				558C2A6F245C6AD00072C75A /* Info.plist */,
+				554716A8267C770B00B34DBF /* InOrderTraversal.swift */,
+				55F9D2572697302300044EA0 /* Permutation.swift */,
+				55CE30E7269965FB00CB6A69 /* MaximumLengthRepeatedSubArray.swift */,
+				55CE30E92699668E00CB6A69 /* assets */,
+			);
+			path = Leetcode_pack_one;
+			sourceTree = "<group>";
+		};
+		55CE30E92699668E00CB6A69 /* assets */ = {
+			isa = PBXGroup;
+			children = (
 				558C2A67245C6ACF0072C75A /* Main.storyboard */,
 				558C2A6A245C6AD00072C75A /* Assets.xcassets */,
 				558C2A6C245C6AD00072C75A /* LaunchScreen.storyboard */,
-				558C2A6F245C6AD00072C75A /* Info.plist */,
-				554716A8267C770B00B34DBF /* InOrderTraversal.swift */,
 			);
-			path = Leetcode_pack_one;
+			path = assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,11 +183,13 @@
 				554716A9267C770B00B34DBF /* InOrderTraversal.swift in Sources */,
 				55E630702674FD45001D5A59 /* 3Sum.swift in Sources */,
 				558C2A76245C6B580072C75A /* EasyOne.swift in Sources */,
+				55F9D2582697302300044EA0 /* Permutation.swift in Sources */,
 				558C2A66245C6ACF0072C75A /* ViewController.swift in Sources */,
 				554716AE267FA3FF00B34DBF /* GroupAnangram.swift in Sources */,
 				551702EA268F391700BDCC0E /* PhoneBoothProblem.swift in Sources */,
 				558C2A62245C6ACF0072C75A /* AppDelegate.swift in Sources */,
 				55AE98B92675FF610090855F /* LevelWiseTraversal.swift in Sources */,
+				55CE30E8269965FB00CB6A69 /* MaximumLengthRepeatedSubArray.swift in Sources */,
 				5525C328267A4EF40029E5D1 /* MinHeap.swift in Sources */,
 				558C2A64245C6ACF0072C75A /* SceneDelegate.swift in Sources */,
 				5599ADD32677097C009C2F8F /* LongestPalindromeSubstring.swift in Sources */,
