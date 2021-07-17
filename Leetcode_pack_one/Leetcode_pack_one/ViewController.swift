@@ -15,6 +15,12 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
+		// FourSums
+		FourSums.test()
+		
+		// in-progress
+		FindMedian.test()
+		
 		MaximumLengthRepeatedSubArray.test()
 		
 		// permutaiton
