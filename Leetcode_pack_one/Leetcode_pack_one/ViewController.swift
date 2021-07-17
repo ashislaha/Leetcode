@@ -15,6 +15,9 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
+		// DisjointSet
+		DisjointSet.test()
+		
 		// FourSums
 		FourSums.test()
 		
