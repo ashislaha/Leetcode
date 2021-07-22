@@ -15,6 +15,12 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
+		
+		PartitionArrayIntoDisjointIntervals.test()
+		
+		// reverse list in k group
+		ReverseNodeInKGroup.test()
+		
 		// DisjointSet
 		DisjointSet.test()
 		
