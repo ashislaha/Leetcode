@@ -13,6 +13,7 @@
 		554716A9267C770B00B34DBF /* InOrderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554716A8267C770B00B34DBF /* InOrderTraversal.swift */; };
 		554716AE267FA3FF00B34DBF /* GroupAnangram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554716AD267FA3FF00B34DBF /* GroupAnangram.swift */; };
 		556F762626A2AAD200CB0ED8 /* 4Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556F762526A2AAD200CB0ED8 /* 4Sum.swift */; };
+		557647A126AC0C5D00461844 /* Binary Tree Pruning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557647A026AC0C5D00461844 /* Binary Tree Pruning.swift */; };
 		558C2A62245C6ACF0072C75A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558C2A61245C6ACF0072C75A /* AppDelegate.swift */; };
 		558C2A64245C6ACF0072C75A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558C2A63245C6ACF0072C75A /* SceneDelegate.swift */; };
 		558C2A66245C6ACF0072C75A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558C2A65245C6ACF0072C75A /* ViewController.swift */; };
@@ -38,6 +39,7 @@
 		554716A8267C770B00B34DBF /* InOrderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InOrderTraversal.swift; sourceTree = "<group>"; };
 		554716AD267FA3FF00B34DBF /* GroupAnangram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAnangram.swift; sourceTree = "<group>"; };
 		556F762526A2AAD200CB0ED8 /* 4Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4Sum.swift; sourceTree = "<group>"; };
+		557647A026AC0C5D00461844 /* Binary Tree Pruning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binary Tree Pruning.swift"; sourceTree = "<group>"; };
 		558C2A5E245C6ACF0072C75A /* Leetcode_pack_one.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Leetcode_pack_one.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		558C2A61245C6ACF0072C75A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		558C2A63245C6ACF0072C75A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				558C2A63245C6ACF0072C75A /* SceneDelegate.swift */,
 				558C2A65245C6ACF0072C75A /* ViewController.swift */,
 				55F06CFA26A9AF2F00531ABD /* partition_array_disjoint_intervals.swift */,
+				557647A026AC0C5D00461844 /* Binary Tree Pruning.swift */,
 				5525C327267A4EF40029E5D1 /* MinHeap.swift */,
 				551702E9268F391700BDCC0E /* PhoneBoothProblem.swift */,
 				55E630712675B4F8001D5A59 /* SetMatrixZero.swift */,
@@ -203,6 +206,7 @@
 				558F1BBD26A339EC005FA29C /* DisjointSet.swift in Sources */,
 				55F9D2582697302300044EA0 /* Permutation.swift in Sources */,
 				558C2A66245C6ACF0072C75A /* ViewController.swift in Sources */,
+				557647A126AC0C5D00461844 /* Binary Tree Pruning.swift in Sources */,
 				554716AE267FA3FF00B34DBF /* GroupAnangram.swift in Sources */,
 				551702EA268F391700BDCC0E /* PhoneBoothProblem.swift in Sources */,
 				558C2A62245C6ACF0072C75A /* AppDelegate.swift in Sources */,
