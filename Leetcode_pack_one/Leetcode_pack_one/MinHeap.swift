@@ -9,8 +9,6 @@
 import Foundation
 
 /// Min-Heap:
-
-
 class HeapNode {
 	let value: Int
 	var next: HeapNode?

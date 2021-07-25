@@ -16,6 +16,8 @@ class ViewController: UIViewController {
 		super.viewDidLoad()
 		
 		
+		WordLadder.test()
+		
 		PartitionArrayIntoDisjointIntervals.test()
 		
 		// reverse list in k group
