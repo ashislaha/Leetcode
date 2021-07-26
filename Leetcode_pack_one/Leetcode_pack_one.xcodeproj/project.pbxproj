@@ -26,6 +26,8 @@
 		5599ADD32677097C009C2F8F /* LongestPalindromeSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5599ADD22677097C009C2F8F /* LongestPalindromeSubstring.swift */; };
 		55AE98B92675FF610090855F /* LevelWiseTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AE98B82675FF610090855F /* LevelWiseTraversal.swift */; };
 		55CE30E8269965FB00CB6A69 /* MaximumLengthRepeatedSubArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CE30E7269965FB00CB6A69 /* MaximumLengthRepeatedSubArray.swift */; };
+		55D8A1A426AD82410002CEC0 /* Non negative intergers without consecutive ones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D8A1A326AD82410002CEC0 /* Non negative intergers without consecutive ones.swift */; };
+		55D8A1AC26AF21C10002CEC0 /* SortedArrayToBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D8A1AB26AF21C10002CEC0 /* SortedArrayToBST.swift */; };
 		55E630702674FD45001D5A59 /* 3Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E6306F2674FD45001D5A59 /* 3Sum.swift */; };
 		55E630722675B4F9001D5A59 /* SetMatrixZero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E630712675B4F8001D5A59 /* SetMatrixZero.swift */; };
 		55E9E12D26A5482600654689 /* ReverseNodeInKGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E9E12C26A5482600654689 /* ReverseNodeInKGroup.swift */; };
@@ -55,6 +57,8 @@
 		5599ADD22677097C009C2F8F /* LongestPalindromeSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPalindromeSubstring.swift; sourceTree = "<group>"; };
 		55AE98B82675FF610090855F /* LevelWiseTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelWiseTraversal.swift; sourceTree = "<group>"; };
 		55CE30E7269965FB00CB6A69 /* MaximumLengthRepeatedSubArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumLengthRepeatedSubArray.swift; sourceTree = "<group>"; };
+		55D8A1A326AD82410002CEC0 /* Non negative intergers without consecutive ones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Non negative intergers without consecutive ones.swift"; sourceTree = "<group>"; };
+		55D8A1AB26AF21C10002CEC0 /* SortedArrayToBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortedArrayToBST.swift; sourceTree = "<group>"; };
 		55E6306F2674FD45001D5A59 /* 3Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3Sum.swift; sourceTree = "<group>"; };
 		55E630712675B4F8001D5A59 /* SetMatrixZero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetMatrixZero.swift; sourceTree = "<group>"; };
 		55E9E12C26A5482600654689 /* ReverseNodeInKGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseNodeInKGroup.swift; sourceTree = "<group>"; };
@@ -99,6 +103,8 @@
 				557647A026AC0C5D00461844 /* Binary Tree Pruning.swift */,
 				5525C327267A4EF40029E5D1 /* MinHeap.swift */,
 				557647A226AD4FD200461844 /* Word Ladder.swift */,
+				55D8A1A326AD82410002CEC0 /* Non negative intergers without consecutive ones.swift */,
+				55D8A1AB26AF21C10002CEC0 /* SortedArrayToBST.swift */,
 				551702E9268F391700BDCC0E /* PhoneBoothProblem.swift */,
 				55E630712675B4F8001D5A59 /* SetMatrixZero.swift */,
 				55E6306F2674FD45001D5A59 /* 3Sum.swift */,
@@ -201,12 +207,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55D8A1A426AD82410002CEC0 /* Non negative intergers without consecutive ones.swift in Sources */,
 				550D8552269B447000473FF3 /* FindMedian.swift in Sources */,
 				55E9E12D26A5482600654689 /* ReverseNodeInKGroup.swift in Sources */,
 				554716A9267C770B00B34DBF /* InOrderTraversal.swift in Sources */,
 				55E630702674FD45001D5A59 /* 3Sum.swift in Sources */,
 				558C2A76245C6B580072C75A /* EasyOne.swift in Sources */,
 				558F1BBD26A339EC005FA29C /* DisjointSet.swift in Sources */,
+				55D8A1AC26AF21C10002CEC0 /* SortedArrayToBST.swift in Sources */,
 				55F9D2582697302300044EA0 /* Permutation.swift in Sources */,
 				558C2A66245C6ACF0072C75A /* ViewController.swift in Sources */,
 				557647A126AC0C5D00461844 /* Binary Tree Pruning.swift in Sources */,
