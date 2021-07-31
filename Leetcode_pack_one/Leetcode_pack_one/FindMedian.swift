@@ -29,14 +29,16 @@ class FindMedian {
 	
 	func addNum(_ num: Int) {
 		
-		// if both minHeap and maxHeap has same number then add e based on its value with current Median
+		// We are maintaining a min heap of right hand side of the median element
+		// and a maxHeap of left hand side of the median element. Do comparision with top of the heap.
+		
 		if minHeap.arr.isEmpty && maxHeap.arr.isEmpty {
 			minHeap.insert(value: num)
 			currentMedian = Double(num)
 			return
 		}
 		
-		
+		// if both minHeap and maxHeap has same number then add e based on its value with current Median
 		if minHeap.arr.count == maxHeap.arr.count {
 			// check num with current median
 			
@@ -107,10 +109,10 @@ class FindMedian {
 	
 	static func test() {
 		let findMedian = FindMedian()
-		let input1 = [6, 10, 2, 6, 5, 0, 6, 3, 1, 0, 0]
-		let input2 = [5, 15, 1, 3]
-		let input3 = [1, 2, 3]
-		let input4 = [1, 2, 3, 4, 5, 6, 7]
+		let input1 = [6, 10, 2, 6, 5, 0, 6, 3, 1, 0, 0] // Median = 3.0
+		let input2 = [5, 15, 1, 3] // Median = 4.0
+		let input3 = [1, 2, 3] // Median = 2.0
+		let input4 = [1, 2, 3, 4, 5, 6, 7] // median = 4.0
 		
 		for each in input4 {
 			findMedian.addNum(each)
@@ -197,13 +199,12 @@ class BinaryMinHeap {
 	func extractMin() -> Int? {
 		guard !arr.isEmpty else { return nil }
 		
-		let first = arr.removeFirst()
+		let first = arr.first
+		arr[0] = arr[heapSize - 1]
 		heapSize -= 1
+		arr.removeLast() // we can remove the last element as it is not useful.
+		heapify(0)
 		
-		if heapSize > 1 {
-			arr[0] = arr[heapSize - 1]
-			heapify(0)
-		}
 		return first
 	}
 }
@@ -282,13 +283,13 @@ class BinaryMaxHeap {
 	func extractMax() -> Int? {
 		guard !arr.isEmpty else { return nil }
 		
-		let first = arr.removeFirst()
+		let first = arr.first
+
+		arr[0] = arr[heapSize - 1]
 		heapSize -= 1
+		arr.removeLast() // remove the unused element
+		heapify(0)
 		
-		if heapSize > 1 {
-			arr[0] = arr[heapSize - 1]
-			heapify(0)
-		}
 		return first
 	}
 }
