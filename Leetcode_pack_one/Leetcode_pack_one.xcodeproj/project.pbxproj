@@ -10,6 +10,7 @@
 		550D8552269B447000473FF3 /* FindMedian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550D8551269B447000473FF3 /* FindMedian.swift */; };
 		551702EA268F391700BDCC0E /* PhoneBoothProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551702E9268F391700BDCC0E /* PhoneBoothProblem.swift */; };
 		5525C328267A4EF40029E5D1 /* MinHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5525C327267A4EF40029E5D1 /* MinHeap.swift */; };
+		5541C15926B56F130065B172 /* TappingWaterRain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5541C15826B56F130065B172 /* TappingWaterRain.swift */; };
 		554716A9267C770B00B34DBF /* InOrderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554716A8267C770B00B34DBF /* InOrderTraversal.swift */; };
 		554716AE267FA3FF00B34DBF /* GroupAnangram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554716AD267FA3FF00B34DBF /* GroupAnangram.swift */; };
 		556F762626A2AAD200CB0ED8 /* 4Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556F762526A2AAD200CB0ED8 /* 4Sum.swift */; };
@@ -40,6 +41,7 @@
 		550D8551269B447000473FF3 /* FindMedian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMedian.swift; sourceTree = "<group>"; };
 		551702E9268F391700BDCC0E /* PhoneBoothProblem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneBoothProblem.swift; sourceTree = "<group>"; };
 		5525C327267A4EF40029E5D1 /* MinHeap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinHeap.swift; sourceTree = "<group>"; };
+		5541C15826B56F130065B172 /* TappingWaterRain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TappingWaterRain.swift; sourceTree = "<group>"; };
 		554716A8267C770B00B34DBF /* InOrderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InOrderTraversal.swift; sourceTree = "<group>"; };
 		554716AD267FA3FF00B34DBF /* GroupAnangram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAnangram.swift; sourceTree = "<group>"; };
 		556F762526A2AAD200CB0ED8 /* 4Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4Sum.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				55E630712675B4F8001D5A59 /* SetMatrixZero.swift */,
 				55E6306F2674FD45001D5A59 /* 3Sum.swift */,
 				5599ADD22677097C009C2F8F /* LongestPalindromeSubstring.swift */,
+				5541C15826B56F130065B172 /* TappingWaterRain.swift */,
 				554716AD267FA3FF00B34DBF /* GroupAnangram.swift */,
 				55AE98B82675FF610090855F /* LevelWiseTraversal.swift */,
 				558C2A75245C6B580072C75A /* EasyOne.swift */,
@@ -228,6 +231,7 @@
 				55CE30E8269965FB00CB6A69 /* MaximumLengthRepeatedSubArray.swift in Sources */,
 				5525C328267A4EF40029E5D1 /* MinHeap.swift in Sources */,
 				55F06CFB26A9AF2F00531ABD /* partition_array_disjoint_intervals.swift in Sources */,
+				5541C15926B56F130065B172 /* TappingWaterRain.swift in Sources */,
 				55D8A1BC26B141560002CEC0 /* ThreeSumClosest.swift in Sources */,
 				558C2A64245C6ACF0072C75A /* SceneDelegate.swift in Sources */,
 				5599ADD32677097C009C2F8F /* LongestPalindromeSubstring.swift in Sources */,
