@@ -11,6 +11,7 @@
 		551702EA268F391700BDCC0E /* PhoneBoothProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551702E9268F391700BDCC0E /* PhoneBoothProblem.swift */; };
 		5525C328267A4EF40029E5D1 /* MinHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5525C327267A4EF40029E5D1 /* MinHeap.swift */; };
 		5541C15926B56F130065B172 /* TappingWaterRain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5541C15826B56F130065B172 /* TappingWaterRain.swift */; };
+		554228AC26B6E690007A6971 /* Large island.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554228AB26B6E690007A6971 /* Large island.swift */; };
 		554716A9267C770B00B34DBF /* InOrderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554716A8267C770B00B34DBF /* InOrderTraversal.swift */; };
 		554716AE267FA3FF00B34DBF /* GroupAnangram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554716AD267FA3FF00B34DBF /* GroupAnangram.swift */; };
 		556F762626A2AAD200CB0ED8 /* 4Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556F762526A2AAD200CB0ED8 /* 4Sum.swift */; };
@@ -42,6 +43,7 @@
 		551702E9268F391700BDCC0E /* PhoneBoothProblem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneBoothProblem.swift; sourceTree = "<group>"; };
 		5525C327267A4EF40029E5D1 /* MinHeap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinHeap.swift; sourceTree = "<group>"; };
 		5541C15826B56F130065B172 /* TappingWaterRain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TappingWaterRain.swift; sourceTree = "<group>"; };
+		554228AB26B6E690007A6971 /* Large island.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Large island.swift"; sourceTree = "<group>"; };
 		554716A8267C770B00B34DBF /* InOrderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InOrderTraversal.swift; sourceTree = "<group>"; };
 		554716AD267FA3FF00B34DBF /* GroupAnangram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAnangram.swift; sourceTree = "<group>"; };
 		556F762526A2AAD200CB0ED8 /* 4Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4Sum.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				55F9D2572697302300044EA0 /* Permutation.swift */,
 				55CE30E7269965FB00CB6A69 /* MaximumLengthRepeatedSubArray.swift */,
 				550D8551269B447000473FF3 /* FindMedian.swift */,
+				554228AB26B6E690007A6971 /* Large island.swift */,
 				556F762526A2AAD200CB0ED8 /* 4Sum.swift */,
 				558F1BBC26A339EC005FA29C /* DisjointSet.swift */,
 				55E9E12C26A5482600654689 /* ReverseNodeInKGroup.swift */,
@@ -230,6 +233,7 @@
 				55AE98B92675FF610090855F /* LevelWiseTraversal.swift in Sources */,
 				55CE30E8269965FB00CB6A69 /* MaximumLengthRepeatedSubArray.swift in Sources */,
 				5525C328267A4EF40029E5D1 /* MinHeap.swift in Sources */,
+				554228AC26B6E690007A6971 /* Large island.swift in Sources */,
 				55F06CFB26A9AF2F00531ABD /* partition_array_disjoint_intervals.swift in Sources */,
 				5541C15926B56F130065B172 /* TappingWaterRain.swift in Sources */,
 				55D8A1BC26B141560002CEC0 /* ThreeSumClosest.swift in Sources */,

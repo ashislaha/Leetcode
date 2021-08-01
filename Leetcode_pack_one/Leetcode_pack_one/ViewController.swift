@@ -15,6 +15,8 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
+		LargeIsland.test()
+		
 		NonNegativeIntWithoutConsecutiveOnes.test()
 		
 		WordLadder.test()
