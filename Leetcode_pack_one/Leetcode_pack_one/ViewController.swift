@@ -15,6 +15,8 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
+		CombineIslandWithSingleZeroChange.test()
+		
 		LargeIsland.test()
 		
 		NonNegativeIntWithoutConsecutiveOnes.test()
