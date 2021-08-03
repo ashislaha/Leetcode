@@ -14,6 +14,7 @@
 		554228AC26B6E690007A6971 /* Large island.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554228AB26B6E690007A6971 /* Large island.swift */; };
 		554716A9267C770B00B34DBF /* InOrderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554716A8267C770B00B34DBF /* InOrderTraversal.swift */; };
 		554716AE267FA3FF00B34DBF /* GroupAnangram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554716AD267FA3FF00B34DBF /* GroupAnangram.swift */; };
+		554CD71626B95202007794E4 /* PowerSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554CD71526B95202007794E4 /* PowerSet.swift */; };
 		556F762626A2AAD200CB0ED8 /* 4Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556F762526A2AAD200CB0ED8 /* 4Sum.swift */; };
 		557647A126AC0C5D00461844 /* Binary Tree Pruning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557647A026AC0C5D00461844 /* Binary Tree Pruning.swift */; };
 		557647A326AD4FD200461844 /* Word Ladder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557647A226AD4FD200461844 /* Word Ladder.swift */; };
@@ -47,6 +48,7 @@
 		554228AB26B6E690007A6971 /* Large island.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Large island.swift"; sourceTree = "<group>"; };
 		554716A8267C770B00B34DBF /* InOrderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InOrderTraversal.swift; sourceTree = "<group>"; };
 		554716AD267FA3FF00B34DBF /* GroupAnangram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAnangram.swift; sourceTree = "<group>"; };
+		554CD71526B95202007794E4 /* PowerSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerSet.swift; sourceTree = "<group>"; };
 		556F762526A2AAD200CB0ED8 /* 4Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4Sum.swift; sourceTree = "<group>"; };
 		557647A026AC0C5D00461844 /* Binary Tree Pruning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binary Tree Pruning.swift"; sourceTree = "<group>"; };
 		557647A226AD4FD200461844 /* Word Ladder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Word Ladder.swift"; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				55CDB4E426B813E8003198EC /* 2Sum.swift */,
 				55E6306F2674FD45001D5A59 /* 3Sum.swift */,
 				55D8A1BB26B141560002CEC0 /* 3SumClosest.swift */,
+				554CD71526B95202007794E4 /* PowerSet.swift */,
 				556F762526A2AAD200CB0ED8 /* 4Sum.swift */,
 				558C2A61245C6ACF0072C75A /* AppDelegate.swift */,
 				557647A026AC0C5D00461844 /* Binary Tree Pruning.swift */,
@@ -229,6 +232,7 @@
 				55D8A1AC26AF21C10002CEC0 /* SortedArrayToBST.swift in Sources */,
 				55F9D2582697302300044EA0 /* Permutation.swift in Sources */,
 				558C2A66245C6ACF0072C75A /* ViewController.swift in Sources */,
+				554CD71626B95202007794E4 /* PowerSet.swift in Sources */,
 				557647A126AC0C5D00461844 /* Binary Tree Pruning.swift in Sources */,
 				554716AE267FA3FF00B34DBF /* GroupAnangram.swift in Sources */,
 				551702EA268F391700BDCC0E /* PhoneBoothProblem.swift in Sources */,
