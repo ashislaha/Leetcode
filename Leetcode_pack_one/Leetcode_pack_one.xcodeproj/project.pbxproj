@@ -16,6 +16,7 @@
 		554716AE267FA3FF00B34DBF /* GroupAnangram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554716AD267FA3FF00B34DBF /* GroupAnangram.swift */; };
 		554CD71626B95202007794E4 /* PowerSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554CD71526B95202007794E4 /* PowerSet.swift */; };
 		556F762626A2AAD200CB0ED8 /* 4Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556F762526A2AAD200CB0ED8 /* 4Sum.swift */; };
+		5570AEDE26BC0E1100EF02F9 /* StoneGame1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5570AEDD26BC0E1100EF02F9 /* StoneGame1.swift */; };
 		557647A126AC0C5D00461844 /* Binary Tree Pruning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557647A026AC0C5D00461844 /* Binary Tree Pruning.swift */; };
 		557647A326AD4FD200461844 /* Word Ladder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557647A226AD4FD200461844 /* Word Ladder.swift */; };
 		558C2A62245C6ACF0072C75A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558C2A61245C6ACF0072C75A /* AppDelegate.swift */; };
@@ -51,6 +52,7 @@
 		554716AD267FA3FF00B34DBF /* GroupAnangram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAnangram.swift; sourceTree = "<group>"; };
 		554CD71526B95202007794E4 /* PowerSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerSet.swift; sourceTree = "<group>"; };
 		556F762526A2AAD200CB0ED8 /* 4Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4Sum.swift; sourceTree = "<group>"; };
+		5570AEDD26BC0E1100EF02F9 /* StoneGame1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoneGame1.swift; sourceTree = "<group>"; };
 		557647A026AC0C5D00461844 /* Binary Tree Pruning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binary Tree Pruning.swift"; sourceTree = "<group>"; };
 		557647A226AD4FD200461844 /* Word Ladder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Word Ladder.swift"; sourceTree = "<group>"; };
 		558C2A5E245C6ACF0072C75A /* Leetcode_pack_one.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Leetcode_pack_one.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,6 +122,7 @@
 				558C2A75245C6B580072C75A /* EasyOne.swift */,
 				550D8551269B447000473FF3 /* FindMedian.swift */,
 				554716AD267FA3FF00B34DBF /* GroupAnangram.swift */,
+				5570AEDD26BC0E1100EF02F9 /* StoneGame1.swift */,
 				554716A8267C770B00B34DBF /* InOrderTraversal.swift */,
 				554228AB26B6E690007A6971 /* Large island.swift */,
 				55AE98B82675FF610090855F /* LevelWiseTraversal.swift */,
@@ -230,6 +233,7 @@
 				55D30CEA26BAB4C300AD5559 /* Path Sum.swift in Sources */,
 				55E9E12D26A5482600654689 /* ReverseNodeInKGroup.swift in Sources */,
 				554716A9267C770B00B34DBF /* InOrderTraversal.swift in Sources */,
+				5570AEDE26BC0E1100EF02F9 /* StoneGame1.swift in Sources */,
 				55E630702674FD45001D5A59 /* 3Sum.swift in Sources */,
 				558C2A76245C6B580072C75A /* EasyOne.swift in Sources */,
 				558F1BBD26A339EC005FA29C /* DisjointSet.swift in Sources */,
