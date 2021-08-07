@@ -28,6 +28,7 @@
 		558C2A76245C6B580072C75A /* EasyOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558C2A75245C6B580072C75A /* EasyOne.swift */; };
 		558F1BBD26A339EC005FA29C /* DisjointSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558F1BBC26A339EC005FA29C /* DisjointSet.swift */; };
 		5599ADD32677097C009C2F8F /* LongestPalindromeSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5599ADD22677097C009C2F8F /* LongestPalindromeSubstring.swift */; };
+		55A21BC426BEA7BC00C69FEE /* Palindrome Partition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A21BC326BEA7BC00C69FEE /* Palindrome Partition.swift */; };
 		55AE98B92675FF610090855F /* LevelWiseTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AE98B82675FF610090855F /* LevelWiseTraversal.swift */; };
 		55CDB4E526B813E8003198EC /* 2Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CDB4E426B813E8003198EC /* 2Sum.swift */; };
 		55CE30E8269965FB00CB6A69 /* MaximumLengthRepeatedSubArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CE30E7269965FB00CB6A69 /* MaximumLengthRepeatedSubArray.swift */; };
@@ -67,6 +68,7 @@
 		558C2A75245C6B580072C75A /* EasyOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyOne.swift; sourceTree = "<group>"; };
 		558F1BBC26A339EC005FA29C /* DisjointSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisjointSet.swift; sourceTree = "<group>"; };
 		5599ADD22677097C009C2F8F /* LongestPalindromeSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPalindromeSubstring.swift; sourceTree = "<group>"; };
+		55A21BC326BEA7BC00C69FEE /* Palindrome Partition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Palindrome Partition.swift"; sourceTree = "<group>"; };
 		55AE98B82675FF610090855F /* LevelWiseTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelWiseTraversal.swift; sourceTree = "<group>"; };
 		55CDB4E426B813E8003198EC /* 2Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2Sum.swift; sourceTree = "<group>"; };
 		55CE30E7269965FB00CB6A69 /* MaximumLengthRepeatedSubArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumLengthRepeatedSubArray.swift; sourceTree = "<group>"; };
@@ -115,36 +117,37 @@
 				55CDB4E426B813E8003198EC /* 2Sum.swift */,
 				55E6306F2674FD45001D5A59 /* 3Sum.swift */,
 				55D8A1BB26B141560002CEC0 /* 3SumClosest.swift */,
-				554CD71526B95202007794E4 /* PowerSet.swift */,
-				55D30CE926BAB4C300AD5559 /* Path Sum.swift */,
 				556F762526A2AAD200CB0ED8 /* 4Sum.swift */,
 				558C2A61245C6ACF0072C75A /* AppDelegate.swift */,
+				55CE30E92699668E00CB6A69 /* assets */,
 				557647A026AC0C5D00461844 /* Binary Tree Pruning.swift */,
 				558F1BBC26A339EC005FA29C /* DisjointSet.swift */,
 				558C2A75245C6B580072C75A /* EasyOne.swift */,
 				550D8551269B447000473FF3 /* FindMedian.swift */,
 				554716AD267FA3FF00B34DBF /* GroupAnangram.swift */,
-				5570AEDD26BC0E1100EF02F9 /* StoneGame1.swift */,
-				55D692DF26BD2092006534E4 /* Level-wise-traversal.swift */,
+				558C2A6F245C6AD00072C75A /* Info.plist */,
 				554716A8267C770B00B34DBF /* InOrderTraversal.swift */,
 				554228AB26B6E690007A6971 /* Large island.swift */,
+				55D692DF26BD2092006534E4 /* Level-wise-traversal.swift */,
 				55AE98B82675FF610090855F /* LevelWiseTraversal.swift */,
 				5599ADD22677097C009C2F8F /* LongestPalindromeSubstring.swift */,
 				55CE30E7269965FB00CB6A69 /* MaximumLengthRepeatedSubArray.swift */,
 				5525C327267A4EF40029E5D1 /* MinHeap.swift */,
 				55D8A1A326AD82410002CEC0 /* Non negative intergers without consecutive ones.swift */,
+				55A21BC326BEA7BC00C69FEE /* Palindrome Partition.swift */,
 				55F06CFA26A9AF2F00531ABD /* partition_array_disjoint_intervals.swift */,
+				55D30CE926BAB4C300AD5559 /* Path Sum.swift */,
 				55F9D2572697302300044EA0 /* Permutation.swift */,
 				551702E9268F391700BDCC0E /* PhoneBoothProblem.swift */,
+				554CD71526B95202007794E4 /* PowerSet.swift */,
 				55E9E12C26A5482600654689 /* ReverseNodeInKGroup.swift */,
 				558C2A63245C6ACF0072C75A /* SceneDelegate.swift */,
 				55E630712675B4F8001D5A59 /* SetMatrixZero.swift */,
 				55D8A1AB26AF21C10002CEC0 /* SortedArrayToBST.swift */,
+				5570AEDD26BC0E1100EF02F9 /* StoneGame1.swift */,
 				5541C15826B56F130065B172 /* TappingWaterRain.swift */,
 				558C2A65245C6ACF0072C75A /* ViewController.swift */,
 				557647A226AD4FD200461844 /* Word Ladder.swift */,
-				558C2A6F245C6AD00072C75A /* Info.plist */,
-				55CE30E92699668E00CB6A69 /* assets */,
 			);
 			path = Leetcode_pack_one;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 				5541C15926B56F130065B172 /* TappingWaterRain.swift in Sources */,
 				55D8A1BC26B141560002CEC0 /* 3SumClosest.swift in Sources */,
 				558C2A64245C6ACF0072C75A /* SceneDelegate.swift in Sources */,
+				55A21BC426BEA7BC00C69FEE /* Palindrome Partition.swift in Sources */,
 				5599ADD32677097C009C2F8F /* LongestPalindromeSubstring.swift in Sources */,
 				556F762626A2AAD200CB0ED8 /* 4Sum.swift in Sources */,
 				557647A326AD4FD200461844 /* Word Ladder.swift in Sources */,
