@@ -15,6 +15,8 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
+		PartitionArray.test()
+		
 		PalindromePartition.test()
 		
 		PowerSet.test()
