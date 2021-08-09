@@ -15,6 +15,10 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
+		AddString.test()
+		
+		Graph.testcases()
+		
 		PartitionArray.test()
 		
 		PalindromePartition.test()
