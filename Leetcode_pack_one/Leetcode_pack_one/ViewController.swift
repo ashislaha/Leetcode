@@ -15,6 +15,8 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
+		ArrayOfDoubledPairs.test()
+		
 		FlipString.test()
 		
 		AddString.test()

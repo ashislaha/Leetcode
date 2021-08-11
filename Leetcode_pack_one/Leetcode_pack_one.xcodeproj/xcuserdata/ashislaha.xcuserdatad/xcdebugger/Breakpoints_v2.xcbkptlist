@@ -7,16 +7,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "59AB02AE-42AD-479F-82FC-EFCF8C1A6902"
+            uuid = "05E6F694-CB8D-4BD3-B6EC-DEC85F3F4BA3"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Leetcode_pack_one/Flip String to Monotone increasing.swift"
+            filePath = "Leetcode_pack_one/Array of doubled pairs.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
-            landmarkName = "test()"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "checkHalf(_:_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
