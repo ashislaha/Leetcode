@@ -15,6 +15,8 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
+		SetMatrixZeros.test()
+		
 		GroupAnangrams.test()
 		
 		ArrayOfDoubledPairs.test()

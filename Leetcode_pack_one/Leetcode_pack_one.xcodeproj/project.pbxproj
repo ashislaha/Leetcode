@@ -34,6 +34,7 @@
 		559BCB6226C153A500489253 /* Add strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559BCB6126C153A500489253 /* Add strings.swift */; };
 		55A21BC426BEA7BC00C69FEE /* Palindrome Partition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A21BC326BEA7BC00C69FEE /* Palindrome Partition.swift */; };
 		55A21BC626BED44300C69FEE /* Partition arr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A21BC526BED44300C69FEE /* Partition arr.swift */; };
+		55A2592B26C66E1F00FD75D4 /* Set Matrix zeros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A2592A26C66E1F00FD75D4 /* Set Matrix zeros.swift */; };
 		55AE98B92675FF610090855F /* LevelWiseTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AE98B82675FF610090855F /* LevelWiseTraversal.swift */; };
 		55B1E62D26BF8924005EED94 /* Graph Representation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B1E62C26BF8924005EED94 /* Graph Representation.swift */; };
 		55B1E62F26BFB8E5005EED94 /* Logs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B1E62E26BFB8E5005EED94 /* Logs.swift */; };
@@ -81,6 +82,7 @@
 		559BCB6126C153A500489253 /* Add strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Add strings.swift"; sourceTree = "<group>"; };
 		55A21BC326BEA7BC00C69FEE /* Palindrome Partition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Palindrome Partition.swift"; sourceTree = "<group>"; };
 		55A21BC526BED44300C69FEE /* Partition arr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Partition arr.swift"; sourceTree = "<group>"; };
+		55A2592A26C66E1F00FD75D4 /* Set Matrix zeros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Set Matrix zeros.swift"; sourceTree = "<group>"; };
 		55AE98B82675FF610090855F /* LevelWiseTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelWiseTraversal.swift; sourceTree = "<group>"; };
 		55B1E62C26BF8924005EED94 /* Graph Representation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Graph Representation.swift"; sourceTree = "<group>"; };
 		55B1E62E26BFB8E5005EED94 /* Logs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logs.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				553BFBDA26C2971700CD342D /* Flip String to Monotone increasing.swift */,
 				553BFBDC26C3F44D00CD342D /* Array of doubled pairs.swift */,
 				5511D91626C51A8000B1D86C /* Group Anangrams.swift */,
+				55A2592A26C66E1F00FD75D4 /* Set Matrix zeros.swift */,
 				558C2A61245C6ACF0072C75A /* AppDelegate.swift */,
 				55CE30E92699668E00CB6A69 /* assets */,
 				557647A026AC0C5D00461844 /* Binary Tree Pruning.swift */,
@@ -276,6 +279,7 @@
 				558C2A62245C6ACF0072C75A /* AppDelegate.swift in Sources */,
 				55AE98B92675FF610090855F /* LevelWiseTraversal.swift in Sources */,
 				559BCB6226C153A500489253 /* Add strings.swift in Sources */,
+				55A2592B26C66E1F00FD75D4 /* Set Matrix zeros.swift in Sources */,
 				55A21BC626BED44300C69FEE /* Partition arr.swift in Sources */,
 				55CE30E8269965FB00CB6A69 /* MaximumLengthRepeatedSubArray.swift in Sources */,
 				5525C328267A4EF40029E5D1 /* MinHeap.swift in Sources */,
