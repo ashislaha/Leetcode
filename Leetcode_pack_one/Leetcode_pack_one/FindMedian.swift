@@ -126,6 +126,10 @@ class FindMedian {
 	
 }
 
+
+
+
+/// Min Heap
 class BinaryMinHeap {
 	
 	var arr: [Int] = []
@@ -209,6 +213,10 @@ class BinaryMinHeap {
 	}
 }
 
+
+
+
+/// Max Heap
 
 class BinaryMaxHeap {
 	

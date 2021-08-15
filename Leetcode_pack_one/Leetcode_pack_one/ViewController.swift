@@ -15,6 +15,8 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
+		MinimumSlidingWindow.test()
+		
 		SetMatrixZeros.test()
 		
 		GroupAnangrams.test()

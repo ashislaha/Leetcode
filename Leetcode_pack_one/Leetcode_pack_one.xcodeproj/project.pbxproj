@@ -40,6 +40,7 @@
 		55B1E62F26BFB8E5005EED94 /* Logs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B1E62E26BFB8E5005EED94 /* Logs.swift */; };
 		55CDB4E526B813E8003198EC /* 2Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CDB4E426B813E8003198EC /* 2Sum.swift */; };
 		55CE30E8269965FB00CB6A69 /* MaximumLengthRepeatedSubArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CE30E7269965FB00CB6A69 /* MaximumLengthRepeatedSubArray.swift */; };
+		55D2F14026C934AF009A3DB0 /* Minimum sliding window.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D2F13F26C934AF009A3DB0 /* Minimum sliding window.swift */; };
 		55D30CEA26BAB4C300AD5559 /* Path Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D30CE926BAB4C300AD5559 /* Path Sum.swift */; };
 		55D692E026BD2092006534E4 /* Level-wise-traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D692DF26BD2092006534E4 /* Level-wise-traversal.swift */; };
 		55D8A1A426AD82410002CEC0 /* Non negative intergers without consecutive ones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D8A1A326AD82410002CEC0 /* Non negative intergers without consecutive ones.swift */; };
@@ -88,6 +89,7 @@
 		55B1E62E26BFB8E5005EED94 /* Logs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logs.swift; sourceTree = "<group>"; };
 		55CDB4E426B813E8003198EC /* 2Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2Sum.swift; sourceTree = "<group>"; };
 		55CE30E7269965FB00CB6A69 /* MaximumLengthRepeatedSubArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumLengthRepeatedSubArray.swift; sourceTree = "<group>"; };
+		55D2F13F26C934AF009A3DB0 /* Minimum sliding window.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Minimum sliding window.swift"; sourceTree = "<group>"; };
 		55D30CE926BAB4C300AD5559 /* Path Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Path Sum.swift"; sourceTree = "<group>"; };
 		55D692DF26BD2092006534E4 /* Level-wise-traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Level-wise-traversal.swift"; sourceTree = "<group>"; };
 		55D8A1A326AD82410002CEC0 /* Non negative intergers without consecutive ones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Non negative intergers without consecutive ones.swift"; sourceTree = "<group>"; };
@@ -132,20 +134,20 @@
 			children = (
 				55CDB4E426B813E8003198EC /* 2Sum.swift */,
 				55E6306F2674FD45001D5A59 /* 3Sum.swift */,
+				55D2F13F26C934AF009A3DB0 /* Minimum sliding window.swift */,
 				55D8A1BB26B141560002CEC0 /* 3SumClosest.swift */,
 				556F762526A2AAD200CB0ED8 /* 4Sum.swift */,
 				559BCB6126C153A500489253 /* Add strings.swift */,
-				553BFBDA26C2971700CD342D /* Flip String to Monotone increasing.swift */,
-				553BFBDC26C3F44D00CD342D /* Array of doubled pairs.swift */,
-				5511D91626C51A8000B1D86C /* Group Anangrams.swift */,
-				55A2592A26C66E1F00FD75D4 /* Set Matrix zeros.swift */,
 				558C2A61245C6ACF0072C75A /* AppDelegate.swift */,
+				553BFBDC26C3F44D00CD342D /* Array of doubled pairs.swift */,
 				55CE30E92699668E00CB6A69 /* assets */,
 				557647A026AC0C5D00461844 /* Binary Tree Pruning.swift */,
 				558F1BBC26A339EC005FA29C /* DisjointSet.swift */,
 				558C2A75245C6B580072C75A /* EasyOne.swift */,
 				550D8551269B447000473FF3 /* FindMedian.swift */,
+				553BFBDA26C2971700CD342D /* Flip String to Monotone increasing.swift */,
 				55B1E62C26BF8924005EED94 /* Graph Representation.swift */,
+				5511D91626C51A8000B1D86C /* Group Anangrams.swift */,
 				554716AD267FA3FF00B34DBF /* GroupAnangram.swift */,
 				558C2A6F245C6AD00072C75A /* Info.plist */,
 				554716A8267C770B00B34DBF /* InOrderTraversal.swift */,
@@ -166,6 +168,7 @@
 				554CD71526B95202007794E4 /* PowerSet.swift */,
 				55E9E12C26A5482600654689 /* ReverseNodeInKGroup.swift */,
 				558C2A63245C6ACF0072C75A /* SceneDelegate.swift */,
+				55A2592A26C66E1F00FD75D4 /* Set Matrix zeros.swift */,
 				55E630712675B4F8001D5A59 /* SetMatrixZero.swift */,
 				55D8A1AB26AF21C10002CEC0 /* SortedArrayToBST.swift */,
 				5570AEDD26BC0E1100EF02F9 /* StoneGame1.swift */,
@@ -292,6 +295,7 @@
 				558C2A64245C6ACF0072C75A /* SceneDelegate.swift in Sources */,
 				5511D91726C51A8000B1D86C /* Group Anangrams.swift in Sources */,
 				55A21BC426BEA7BC00C69FEE /* Palindrome Partition.swift in Sources */,
+				55D2F14026C934AF009A3DB0 /* Minimum sliding window.swift in Sources */,
 				5599ADD32677097C009C2F8F /* LongestPalindromeSubstring.swift in Sources */,
 				556F762626A2AAD200CB0ED8 /* 4Sum.swift in Sources */,
 				55B1E62F26BFB8E5005EED94 /* Logs.swift in Sources */,
