@@ -40,6 +40,11 @@ class MinimumSlidingWindow {
 			}
 		}
 		
+		var tempText: [Int: Character] = [:]
+		for (index, each) in t.enumerated() {
+			tempText[index] = each
+		}
+		
 		var start = 0
 		var windowSize: Int = M
 		var finalString = ""
@@ -69,7 +74,7 @@ class MinimumSlidingWindow {
 				// if text count value is more than pattern frequency value for that char,
 				// increment the start counter and reduce the frequency of text frequency value.
 				
-				var ch = getValue(t, start)
+				var ch = tempText[start]! //getValue(t, start)
 				while pattern[ch] == nil || text[ch]! > pattern[ch]! {
 					
 					if let patternChCount = pattern[ch], let textChCount = text[ch], textChCount > patternChCount {
@@ -77,7 +82,7 @@ class MinimumSlidingWindow {
 					}
 					
 					start += 1
-					ch = getValue(t, start)
+					ch = tempText[start]! //getValue(t, start)
 				}
 				
 				// Now we got a window (j-i+1)
@@ -94,6 +99,7 @@ class MinimumSlidingWindow {
 		return finalString
 	}
 	
+	// do not use this method, it has perf impact, instead of use dictionary
 	func getValue(_ s: String, _ i: Int) -> Character {
 		let index = s.index(s.startIndex, offsetBy: i)
 		return s[index] as Character
