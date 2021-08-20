@@ -33,9 +33,9 @@ class MaximumProductOfSplittedBinaryTree {
 		
 		// process from root to leaves and find out the max
 		var maxValue = Int.min
-		processMaxProduct(root, total, &maxValue)
+		let _ = processMaxProduct(root, total, &maxValue)
 		
-		return maxValue
+		return maxValue % (Int(pow(10.0, 9)) + 7)
 	}
 	
 	func sumCalculation(_ root: BinarySplittedTreeNode?) -> Int {
@@ -46,27 +46,19 @@ class MaximumProductOfSplittedBinaryTree {
 			return root.val
 		}
 		
-		let left = sumCalculation(root.left)
-		let right = sumCalculation(root.right)
-		let val = root.val + left + right
-		root.val = val
-		return val
+		return root.val + sumCalculation(root.left) + sumCalculation(root.right)
 	}
 	
 	
-	func processMaxProduct(_ root: BinarySplittedTreeNode?, _ total: Int, _ maxValue: inout Int) {
+	func processMaxProduct(_ root: BinarySplittedTreeNode?, _ total: Int, _ maxValue: inout Int) -> Int {
 		
-		guard let root = root else { return }
+		guard let root = root else { return 0 }
 		
-		if let left = root.left {
-			maxValue = max(maxValue, (total-left.val) * left.val)
-			processMaxProduct(left, total, &maxValue)
-		}
+		let left = processMaxProduct(root.left, total, &maxValue)
+		let right = processMaxProduct(root.right, total, &maxValue)
 		
-		if let right = root.right {
-			maxValue = max(maxValue, (total-right.val) * right.val)
-			processMaxProduct(right, total, &maxValue )
-		}
-		
+		let sum = left + right + root.val
+		maxValue = max(maxValue, (total-sum) * sum)
+		return sum
 	}
 }
