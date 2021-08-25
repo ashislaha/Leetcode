@@ -15,6 +15,8 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
+		SumOfSquareNumber.test()
+		
 		SegmentTree.test()
 		
 		MinimumSlidingWindow.test()
