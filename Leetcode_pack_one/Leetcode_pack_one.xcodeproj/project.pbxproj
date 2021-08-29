@@ -59,6 +59,7 @@
 		55EE3C2A26CA7ED900FACA3D /* Segment Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EE3C2926CA7ED900FACA3D /* Segment Tree.swift */; };
 		55F06CFB26A9AF2F00531ABD /* partition_array_disjoint_intervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F06CFA26A9AF2F00531ABD /* partition_array_disjoint_intervals.swift */; };
 		55F9D2582697302300044EA0 /* Permutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F9D2572697302300044EA0 /* Permutation.swift */; };
+		55FF966E26DA8428001FDED2 /* Maximum profit job scheduling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FF966D26DA8428001FDED2 /* Maximum profit job scheduling.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -116,6 +117,7 @@
 		55EE3C2926CA7ED900FACA3D /* Segment Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Segment Tree.swift"; sourceTree = "<group>"; };
 		55F06CFA26A9AF2F00531ABD /* partition_array_disjoint_intervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = partition_array_disjoint_intervals.swift; sourceTree = "<group>"; };
 		55F9D2572697302300044EA0 /* Permutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permutation.swift; sourceTree = "<group>"; };
+		55FF966D26DA8428001FDED2 /* Maximum profit job scheduling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Maximum profit job scheduling.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +178,7 @@
 				559D5A9826D94D4100463EA1 /* Longest uncommon subsequence.swift */,
 				5599ADD22677097C009C2F8F /* LongestPalindromeSubstring.swift */,
 				5547D49E26CF8AE4008774DA /* Max product of splitted binary tree.swift */,
+				55FF966D26DA8428001FDED2 /* Maximum profit job scheduling.swift */,
 				55CE30E7269965FB00CB6A69 /* MaximumLengthRepeatedSubArray.swift */,
 				550D8551269B447000473FF3 /* Median Find.swift */,
 				5525C327267A4EF40029E5D1 /* MinHeap.swift */,
@@ -310,6 +313,7 @@
 				551702EA268F391700BDCC0E /* PhoneBoothProblem.swift in Sources */,
 				553BFBDB26C2971700CD342D /* Flip String to Monotone increasing.swift in Sources */,
 				558C2A62245C6ACF0072C75A /* AppDelegate.swift in Sources */,
+				55FF966E26DA8428001FDED2 /* Maximum profit job scheduling.swift in Sources */,
 				55AE98B92675FF610090855F /* LevelWiseTraversal.swift in Sources */,
 				559BCB6226C153A500489253 /* Add strings.swift in Sources */,
 				55A2592B26C66E1F00FD75D4 /* Set Matrix zeros.swift in Sources */,
