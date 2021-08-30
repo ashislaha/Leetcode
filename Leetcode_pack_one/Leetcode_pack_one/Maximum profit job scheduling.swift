@@ -101,12 +101,12 @@ class MaximumProfit {
 					
 				} else {
 					
-					// pull the max value from lookup and test profit with still now max
-					if let previous = findPreviousNearestNeighbor(end, sortedArray: jobs) {
-						lookup[end] = max(lookup[previous]!, profit)
-					} else {
+//					// pull the max value from lookup and test profit with still now max
+//					if let previous = findPreviousNearestNeighbor(end, sortedArray: jobs) {
+//						lookup[end] = max(lookup[previous]!, profit)
+//					} else {
 						lookup[end] = profit
-					}
+//					}
 				}
 			}
 		}
