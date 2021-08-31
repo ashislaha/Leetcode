@@ -7,16 +7,32 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "7E46141E-F759-47E5-9D76-43E87E1A4C99"
+            uuid = "B230F63C-6F8D-4324-A603-F62BC746124D"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Leetcode_pack_one/Maximum profit job scheduling.swift"
+            filePath = "Leetcode_pack_one/Patching Array.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "119"
-            endingLineNumber = "119"
-            landmarkName = "timeSeriesProfitValue(_:)"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "minPatches(_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "45429D6A-1387-4BC8-BCC1-0B8FB60ADF66"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Leetcode_pack_one/Patching Array.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "minPatches(_:_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

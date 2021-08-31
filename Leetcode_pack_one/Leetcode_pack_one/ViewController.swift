@@ -15,6 +15,8 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
+		PatchinArray.test()
+		
 		MaximumProfit.test()
 		
 		SumOfSquareNumber.test()
