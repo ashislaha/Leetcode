@@ -17,6 +17,7 @@
 		554228AC26B6E690007A6971 /* Large island.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554228AB26B6E690007A6971 /* Large island.swift */; };
 		554659B826DDDBB5004E81B9 /* Patching Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554659B726DDDBB5004E81B9 /* Patching Array.swift */; };
 		554659BC26DFEFAA004E81B9 /* Array Nesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554659BB26DFEFAA004E81B9 /* Array Nesting.swift */; };
+		554659FB26E13173004E81B9 /* Unique binary search trees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554659FA26E13173004E81B9 /* Unique binary search trees.swift */; };
 		554716A9267C770B00B34DBF /* InOrderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554716A8267C770B00B34DBF /* InOrderTraversal.swift */; };
 		554716AE267FA3FF00B34DBF /* GroupAnangram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554716AD267FA3FF00B34DBF /* GroupAnangram.swift */; };
 		5547D49F26CF8AE4008774DA /* Max product of splitted binary tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5547D49E26CF8AE4008774DA /* Max product of splitted binary tree.swift */; };
@@ -75,6 +76,7 @@
 		554228AB26B6E690007A6971 /* Large island.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Large island.swift"; sourceTree = "<group>"; };
 		554659B726DDDBB5004E81B9 /* Patching Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Patching Array.swift"; sourceTree = "<group>"; };
 		554659BB26DFEFAA004E81B9 /* Array Nesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array Nesting.swift"; sourceTree = "<group>"; };
+		554659FA26E13173004E81B9 /* Unique binary search trees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Unique binary search trees.swift"; sourceTree = "<group>"; };
 		554716A8267C770B00B34DBF /* InOrderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InOrderTraversal.swift; sourceTree = "<group>"; };
 		554716AD267FA3FF00B34DBF /* GroupAnangram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAnangram.swift; sourceTree = "<group>"; };
 		5547D49E26CF8AE4008774DA /* Max product of splitted binary tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Max product of splitted binary tree.swift"; sourceTree = "<group>"; };
@@ -206,6 +208,7 @@
 				5570AEDD26BC0E1100EF02F9 /* StoneGame1.swift */,
 				5578857026D651980071505D /* Sum of Square numbers.swift */,
 				5541C15826B56F130065B172 /* TappingWaterRain.swift */,
+				554659FA26E13173004E81B9 /* Unique binary search trees.swift */,
 				558C2A65245C6ACF0072C75A /* ViewController.swift */,
 				557647A226AD4FD200461844 /* Word Ladder.swift */,
 			);
@@ -341,6 +344,7 @@
 				55A21BC426BEA7BC00C69FEE /* Palindrome Partition.swift in Sources */,
 				55D2F14026C934AF009A3DB0 /* Minimum sliding window.swift in Sources */,
 				5599ADD32677097C009C2F8F /* LongestPalindromeSubstring.swift in Sources */,
+				554659FB26E13173004E81B9 /* Unique binary search trees.swift in Sources */,
 				556F762626A2AAD200CB0ED8 /* 4Sum.swift in Sources */,
 				55B1E62F26BFB8E5005EED94 /* Logs.swift in Sources */,
 				557647A326AD4FD200461844 /* Word Ladder.swift in Sources */,
