@@ -15,6 +15,8 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
+		ConvexHull.test()
+		
 		PatchinArray.test()
 		
 		MaximumProfit.test()
