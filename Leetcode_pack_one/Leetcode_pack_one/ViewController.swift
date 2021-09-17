@@ -15,6 +15,10 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
+		LongestTurbulentArray.test()
+		
+		ArithmeticSlices.test()
+		
 		ConvexHull.test()
 		
 		PatchinArray.test()
