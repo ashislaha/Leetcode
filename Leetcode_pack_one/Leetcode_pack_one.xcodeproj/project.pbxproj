@@ -55,6 +55,7 @@
 		55D30CEA26BAB4C300AD5559 /* Path Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D30CE926BAB4C300AD5559 /* Path Sum.swift */; };
 		55D692E026BD2092006534E4 /* Level-wise-traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D692DF26BD2092006534E4 /* Level-wise-traversal.swift */; };
 		55D894D626F459E300C0CBD5 /* LongestTurbulentArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D894D526F459E300C0CBD5 /* LongestTurbulentArray.swift */; };
+		55D894D826F4623500C0CBD5 /* Spiral matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D894D726F4623500C0CBD5 /* Spiral matrix.swift */; };
 		55D8A1A426AD82410002CEC0 /* Non negative intergers without consecutive ones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D8A1A326AD82410002CEC0 /* Non negative intergers without consecutive ones.swift */; };
 		55D8A1AC26AF21C10002CEC0 /* SortedArrayToBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D8A1AB26AF21C10002CEC0 /* SortedArrayToBST.swift */; };
 		55D8A1BC26B141560002CEC0 /* 3SumClosest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D8A1BB26B141560002CEC0 /* 3SumClosest.swift */; };
@@ -119,6 +120,7 @@
 		55D30CE926BAB4C300AD5559 /* Path Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Path Sum.swift"; sourceTree = "<group>"; };
 		55D692DF26BD2092006534E4 /* Level-wise-traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Level-wise-traversal.swift"; sourceTree = "<group>"; };
 		55D894D526F459E300C0CBD5 /* LongestTurbulentArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestTurbulentArray.swift; sourceTree = "<group>"; };
+		55D894D726F4623500C0CBD5 /* Spiral matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Spiral matrix.swift"; sourceTree = "<group>"; };
 		55D8A1A326AD82410002CEC0 /* Non negative intergers without consecutive ones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Non negative intergers without consecutive ones.swift"; sourceTree = "<group>"; };
 		55D8A1AB26AF21C10002CEC0 /* SortedArrayToBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortedArrayToBST.swift; sourceTree = "<group>"; };
 		55D8A1BB26B141560002CEC0 /* 3SumClosest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3SumClosest.swift; sourceTree = "<group>"; };
@@ -214,6 +216,7 @@
 				55A2592A26C66E1F00FD75D4 /* Set Matrix zeros.swift */,
 				55E630712675B4F8001D5A59 /* SetMatrixZero.swift */,
 				55D8A1AB26AF21C10002CEC0 /* SortedArrayToBST.swift */,
+				55D894D726F4623500C0CBD5 /* Spiral matrix.swift */,
 				5570AEDD26BC0E1100EF02F9 /* StoneGame1.swift */,
 				5578857026D651980071505D /* Sum of Square numbers.swift */,
 				5541C15826B56F130065B172 /* TappingWaterRain.swift */,
@@ -310,6 +313,7 @@
 				55518F6426D1464000FCD06E /* Interview questions.swift in Sources */,
 				554659B826DDDBB5004E81B9 /* Patching Array.swift in Sources */,
 				55A3E21E26CE0E3E00911890 /* Decode ways.swift in Sources */,
+				55D894D826F4623500C0CBD5 /* Spiral matrix.swift in Sources */,
 				550D8552269B447000473FF3 /* Median Find.swift in Sources */,
 				55D30CEA26BAB4C300AD5559 /* Path Sum.swift in Sources */,
 				55E9E12D26A5482600654689 /* ReverseNodeInKGroup.swift in Sources */,

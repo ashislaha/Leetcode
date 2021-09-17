@@ -15,6 +15,8 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
+		SpiralMatrix.test()
+		
 		LongestTurbulentArray.test()
 		
 		ArithmeticSlices.test()
