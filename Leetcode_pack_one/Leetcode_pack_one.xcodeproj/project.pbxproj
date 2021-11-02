@@ -11,6 +11,7 @@
 		5511D91726C51A8000B1D86C /* Group Anangrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5511D91626C51A8000B1D86C /* Group Anangrams.swift */; };
 		551702EA268F391700BDCC0E /* PhoneBoothProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551702E9268F391700BDCC0E /* PhoneBoothProblem.swift */; };
 		5525C328267A4EF40029E5D1 /* MinHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5525C327267A4EF40029E5D1 /* MinHeap.swift */; };
+		55315E042730F58D004BB1C1 /* average of levels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55315E032730F58D004BB1C1 /* average of levels.swift */; };
 		553BFBDB26C2971700CD342D /* Flip String to Monotone increasing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553BFBDA26C2971700CD342D /* Flip String to Monotone increasing.swift */; };
 		553BFBDD26C3F44D00CD342D /* Array of doubled pairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553BFBDC26C3F44D00CD342D /* Array of doubled pairs.swift */; };
 		5541C15926B56F130065B172 /* TappingWaterRain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5541C15826B56F130065B172 /* TappingWaterRain.swift */; };
@@ -66,6 +67,7 @@
 		55EE3C2A26CA7ED900FACA3D /* Segment Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EE3C2926CA7ED900FACA3D /* Segment Tree.swift */; };
 		55F06CFB26A9AF2F00531ABD /* partition_array_disjoint_intervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F06CFA26A9AF2F00531ABD /* partition_array_disjoint_intervals.swift */; };
 		55F9D2582697302300044EA0 /* Permutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F9D2572697302300044EA0 /* Permutation.swift */; };
+		55F9FF2C272C2B76005CA025 /* Rotting Oranges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F9FF2B272C2B76005CA025 /* Rotting Oranges.swift */; };
 		55FF966E26DA8428001FDED2 /* Maximum profit job scheduling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FF966D26DA8428001FDED2 /* Maximum profit job scheduling.swift */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +76,7 @@
 		5511D91626C51A8000B1D86C /* Group Anangrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Group Anangrams.swift"; sourceTree = "<group>"; };
 		551702E9268F391700BDCC0E /* PhoneBoothProblem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneBoothProblem.swift; sourceTree = "<group>"; };
 		5525C327267A4EF40029E5D1 /* MinHeap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinHeap.swift; sourceTree = "<group>"; };
+		55315E032730F58D004BB1C1 /* average of levels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "average of levels.swift"; sourceTree = "<group>"; };
 		553BFBDA26C2971700CD342D /* Flip String to Monotone increasing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Flip String to Monotone increasing.swift"; sourceTree = "<group>"; };
 		553BFBDC26C3F44D00CD342D /* Array of doubled pairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array of doubled pairs.swift"; sourceTree = "<group>"; };
 		5541C15826B56F130065B172 /* TappingWaterRain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TappingWaterRain.swift; sourceTree = "<group>"; };
@@ -131,6 +134,7 @@
 		55EE3C2926CA7ED900FACA3D /* Segment Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Segment Tree.swift"; sourceTree = "<group>"; };
 		55F06CFA26A9AF2F00531ABD /* partition_array_disjoint_intervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = partition_array_disjoint_intervals.swift; sourceTree = "<group>"; };
 		55F9D2572697302300044EA0 /* Permutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permutation.swift; sourceTree = "<group>"; };
+		55F9FF2B272C2B76005CA025 /* Rotting Oranges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rotting Oranges.swift"; sourceTree = "<group>"; };
 		55FF966D26DA8428001FDED2 /* Maximum profit job scheduling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Maximum profit job scheduling.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -223,6 +227,8 @@
 				554659FA26E13173004E81B9 /* Unique binary search trees.swift */,
 				558C2A65245C6ACF0072C75A /* ViewController.swift */,
 				557647A226AD4FD200461844 /* Word Ladder.swift */,
+				55F9FF2B272C2B76005CA025 /* Rotting Oranges.swift */,
+				55315E032730F58D004BB1C1 /* average of levels.swift */,
 			);
 			path = Leetcode_pack_one;
 			sourceTree = "<group>";
@@ -331,6 +337,7 @@
 				554CD71626B95202007794E4 /* PowerSet.swift in Sources */,
 				557647A126AC0C5D00461844 /* Binary Tree Pruning.swift in Sources */,
 				559D5A9926D94D4100463EA1 /* Longest uncommon subsequence.swift in Sources */,
+				55F9FF2C272C2B76005CA025 /* Rotting Oranges.swift in Sources */,
 				554716AE267FA3FF00B34DBF /* GroupAnangram.swift in Sources */,
 				55EE3C2826CA552700FACA3D /* Hops count.swift in Sources */,
 				551702EA268F391700BDCC0E /* PhoneBoothProblem.swift in Sources */,
@@ -366,6 +373,7 @@
 				55CDB4E526B813E8003198EC /* 2Sum.swift in Sources */,
 				55D894D626F459E300C0CBD5 /* LongestTurbulentArray.swift in Sources */,
 				55E630722675B4F9001D5A59 /* SetMatrixZero.swift in Sources */,
+				55315E042730F58D004BB1C1 /* average of levels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

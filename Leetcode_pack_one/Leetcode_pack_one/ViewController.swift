@@ -15,6 +15,10 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
+		AverageLevels.test()
+		
+		RottingOranges.test()
+		
 		SpiralMatrix.test()
 		
 		LongestTurbulentArray.test()
