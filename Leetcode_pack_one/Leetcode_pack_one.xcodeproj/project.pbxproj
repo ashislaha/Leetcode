@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55093F442732C40600EBFEFF /* Remove duplicate from list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55093F432732C40600EBFEFF /* Remove duplicate from list.swift */; };
 		550D8552269B447000473FF3 /* Median Find.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550D8551269B447000473FF3 /* Median Find.swift */; };
 		5511D91726C51A8000B1D86C /* Group Anangrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5511D91626C51A8000B1D86C /* Group Anangrams.swift */; };
 		551702EA268F391700BDCC0E /* PhoneBoothProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551702E9268F391700BDCC0E /* PhoneBoothProblem.swift */; };
@@ -72,6 +73,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		55093F432732C40600EBFEFF /* Remove duplicate from list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Remove duplicate from list.swift"; sourceTree = "<group>"; };
 		550D8551269B447000473FF3 /* Median Find.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Median Find.swift"; sourceTree = "<group>"; };
 		5511D91626C51A8000B1D86C /* Group Anangrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Group Anangrams.swift"; sourceTree = "<group>"; };
 		551702E9268F391700BDCC0E /* PhoneBoothProblem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneBoothProblem.swift; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 				554659BB26DFEFAA004E81B9 /* Array Nesting.swift */,
 				553BFBDC26C3F44D00CD342D /* Array of doubled pairs.swift */,
 				55CE30E92699668E00CB6A69 /* assets */,
+				55315E032730F58D004BB1C1 /* average of levels.swift */,
 				557647A026AC0C5D00461844 /* Binary Tree Pruning.swift */,
 				554659FC26E33639004E81B9 /* convex hull .swift */,
 				55A3E21D26CE0E3E00911890 /* Decode ways.swift */,
@@ -214,7 +217,9 @@
 				55F9D2572697302300044EA0 /* Permutation.swift */,
 				551702E9268F391700BDCC0E /* PhoneBoothProblem.swift */,
 				554CD71526B95202007794E4 /* PowerSet.swift */,
+				55093F432732C40600EBFEFF /* Remove duplicate from list.swift */,
 				55E9E12C26A5482600654689 /* ReverseNodeInKGroup.swift */,
+				55F9FF2B272C2B76005CA025 /* Rotting Oranges.swift */,
 				558C2A63245C6ACF0072C75A /* SceneDelegate.swift */,
 				55EE3C2926CA7ED900FACA3D /* Segment Tree.swift */,
 				55A2592A26C66E1F00FD75D4 /* Set Matrix zeros.swift */,
@@ -227,8 +232,6 @@
 				554659FA26E13173004E81B9 /* Unique binary search trees.swift */,
 				558C2A65245C6ACF0072C75A /* ViewController.swift */,
 				557647A226AD4FD200461844 /* Word Ladder.swift */,
-				55F9FF2B272C2B76005CA025 /* Rotting Oranges.swift */,
-				55315E032730F58D004BB1C1 /* average of levels.swift */,
 			);
 			path = Leetcode_pack_one;
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55093F442732C40600EBFEFF /* Remove duplicate from list.swift in Sources */,
 				55D8A1A426AD82410002CEC0 /* Non negative intergers without consecutive ones.swift in Sources */,
 				55518F6426D1464000FCD06E /* Interview questions.swift in Sources */,
 				554659B826DDDBB5004E81B9 /* Patching Array.swift in Sources */,
