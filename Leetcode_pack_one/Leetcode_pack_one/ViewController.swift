@@ -15,6 +15,8 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
+		AlmostSortedArray.test()
+		
 		AverageLevels.test()
 		
 		RottingOranges.test()
